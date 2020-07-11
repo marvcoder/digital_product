@@ -100,6 +100,7 @@ nav li a:hover {
 }
 .item {
     text-align: center;
+    color: var(--white-color);
 }
 .img_item img{
     width: 70%;
@@ -109,6 +110,7 @@ nav li a:hover {
     text-align: center;
     font-weight: 900;
     padding-top: 60px;
+    color: var(--white-color);
 }
 .mentions {
     display: flex;
@@ -117,12 +119,12 @@ nav li a:hover {
 .mention {
     width: 13rem;
     padding: 15px;
+    
 }
 .mention .content_mention {
     background-color: var(--violet-color);
     padding-bottom: 10px;
     border-radius: 10px;
-    box-shadow: var(--box);
     color: var(--white-color);
     font-size: var(--normal);
     text-align: center;
