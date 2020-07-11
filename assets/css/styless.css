@@ -90,3 +90,48 @@ nav li a:hover {
 .main_button:hover {
     background-color: #BD55C6;
 }
+
+/* Promotions sections */
+.promotion {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2.5rem;
+}
+.item {
+    text-align: center;
+}
+.img_item img{
+    width: 70%;
+}
+/* Mentions section */
+.title-mention {
+    text-align: center;
+    font-weight: 900;
+    padding-top: 60px;
+}
+.mentions {
+    display: flex;
+    justify-content: center;
+}
+.mention {
+    width: 13rem;
+    padding: 15px;
+}
+.mention .content_mention {
+    background-color: var(--violet-color);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: var(--box);
+    color: var(--white-color);
+    font-size: var(--normal);
+    text-align: center;
+    border-style: none;
+}
+.content_mention-img {
+    object-fit: cover;
+}
+.content_mention-img img {
+    width: 100%;
+    height: 120px;
+}
