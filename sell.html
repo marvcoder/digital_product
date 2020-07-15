@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/styless.css">
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>MARV</title>
+</head>
+
+<body>
+    <nav class="fadeInDown">
+        <a href="/index.html">
+            <img src="./assets/img/Marv.png" alt="logoMarv">
+        </a>
+        <ul>
+            <li><a href="#">Faqs</a></li>
+            <li><a href="#">Product and description</a></li>
+        </ul>
+    </nav>
+    <div class="container-sell">
+        <div class="col-4">
+            <div class="module-pay">
+                <div class="module-pay-img">
+                    <img src="./assets/img/Recurso 2.png" alt="">
+                </div>
+                <h3>Product 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius beatae assumenda voluptate nam, dolor praesentium dicta fuga atque nisi molestias adipisci, accusantium eligendi incidunt suscipit quo, deserunt recusandae! Alias, inventore.</p>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="module-pay">
+                <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ZF8SSLKS346L6" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="" id="name" class="data">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="" id="email" class="data">
+                    <label for="cellphone">CellPhone</label>
+                    <input type="number" placeholder="" id="cellphone" class="data">
+
+                    <!-- Buttons -->
+                    <input type="submit" class="main-btn" id="submit" value = "Confirm Pay">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="option">
+            <p>Terminos y condiciones</p>
+        </div>
+        <div class="option">
+            <p>Desarrollado con 🧡 by <a href="https://twitter.com/marvcoder"> @marvcoder</a> </p>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
